@@ -4,7 +4,7 @@ const connectToDatabase = require('./database')
 
 const app =express()
 
-// connectToDatabase()
+connectToDatabase()
 
 app.get("/",(req ,res)=>{
     res.status(200).json({
